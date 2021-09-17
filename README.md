@@ -3,6 +3,8 @@
 # Abstract
 This project aims to leverage natural language processing tools to perform a statistical analysis of congressional tweets. Through the combination of observations regarding reoccuring strings and recorded qualities, data can be processed via textual extraction, classification, and analysis mechanisms contained within the aforementioned NLTK library.
 Sentiment analysis and topic analysis can be acheived through text classification, while text extraction can be utilized in the form of named entity recognition, which provides potential for the acknowledgement of frequential correlations between congress members and their Twitter account content. This data can be stored in a relational database such as MSSQL or MySQL. 
+![image](https://user-images.githubusercontent.com/89652481/133836630-2b402a44-fdf2-4836-b181-1a86442a7380.png)
+
 
 # Relevance
 The following components are both a topic of this course and modular aspects of the proposed project:
