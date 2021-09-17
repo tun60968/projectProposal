@@ -39,7 +39,6 @@ The following tools and technologies are required for the execution of the propo
     from matplotlib import pylab
     from bs4 import BeautifulSoup
     import nltk, re, pprint
-    #  nltk.download()
     from nltk import word_tokenize
     from urllib import request 
 - MyMSQL or MSSQL database 
