@@ -15,3 +15,30 @@ Access to database - Accessing a database is paramount in allowing for effective
 
 # Conceptual Design
 ![image](https://user-images.githubusercontent.com/89652481/133833431-e73bf8f0-f139-433f-83d7-0bfacd182eb2.png)
+Featured above, the constructed diagram displays an overview of the processing of components within the proposed project. It should be noted, however, that a Twitter developer account will need to undergo the process of attaining access to the Twitter API - a task that I have already completed prior to the formation of this document.
+Given a team of four members, it would be advised to have the following arrangement of responsibilities:
+Person 1 - Accessing Twitter API through Python (https://github.com/twitterdev/search-tweets-python), Accessing tweets conducted by congressional members, extraction of tweets into well-documented format for text files (https://ucsd.libguides.com/congress_twitter/home)
+Person 2 - Construction of database, inclusion of custom queries that support statistical inquiries of group members (https://ucsd.libguides.com/congress_twitter/home)
+Person 3 - Use of Python's NLTK library to perform congressional text classification and analysis (https://www.nltk.org/); this role is dependent upon the success of Person 1 in proper extraction of tweets. It is advisable, although not required, that Person 2 has designed and implemented the database prior to Person 3 performing their task, as a completed database will make this task much clearer and executable.
+Person 4 - Responsible for brainstorming, documenting, and sharing data visualization techniques and ideas in detail. As soon as the data becomes available, Person 4 should begin constructing necessary visualizations. Person 4 may use their own discretion in the determination of tools and technologies used to perform their task. Person 4 is responsible for composing a list of questions that we want to answer regarding congressional members and their Twitter content.
+
+# Background
+The following link provides a small yet relatable demonstration of the Python NLTK library:
+https://github.com/westbenj2020/presidential-analysis/blob/main/test.py
+
+# Requirements
+At least four group members are required for an adequate execution of the proposed project.
+The following tools and technologies are required for the execution of the proposed project:
+- Supported version of Python
+- Appropriate libraries:
+    from __future__ import division
+    import csv
+    import matplotlib
+    from matplotlib import pylab
+    from bs4 import BeautifulSoup
+    import nltk, re, pprint
+    #  nltk.download()
+    from nltk import word_tokenize
+    from urllib import request 
+- MyMSQL or MSSQL database 
+- Twitter developer account with API access  
