@@ -14,4 +14,4 @@ Graphical user interface - With a project of this nature, effective data visuali
 Access to database - Accessing a database is paramount in allowing for effective and persistent data storage, particularly when concerned with derived attributes or data. To this effect, the source code, written in Python, will make use of a MSSQL or MySQL database.
 
 # Conceptual Design
-https://github.com/tun60968/projectProposal/blob/main/projpropoverview.JPG?raw=true
+![image](https://user-images.githubusercontent.com/89652481/133833431-e73bf8f0-f139-433f-83d7-0bfacd182eb2.png)
